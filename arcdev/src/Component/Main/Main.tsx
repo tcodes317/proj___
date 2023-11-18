@@ -5,15 +5,15 @@ function Main(){
     return(
         <>
             <div className="bg-black text-white relative pt-44">
-                <div className="xxs:text-6xl md:text-6xl ssm:text-5xl xs:text-5xl xs:text-center xs:font-bold">
-                    <h1>Hire the world's <div id="ani">top remote developers</div> faster</h1>
+                <div className="xxs:text-6xl lg:text-7xl md:text-6xl ssm:text-5xl xs:text-5xl xs:text-center xs:font-bold">
+                    <h1>Hire the world's <div id="ani">top remote developers </div>faster </h1>
                 </div>
-                <div className="xs:text-center xs:mx-6 xs:mt-8 xxs:text-md md:text-xl">
+                <div className="mmd:text-2xl xs:text-center xs:mx-6 xs:mt-8 xxs:text-md md:text-xl">
                     <span>HireAI helps you skip outreach, job ads and resume screening.</span>
                 </div>
 
                 <div className="xs:flex xs:flex-col ssm:mx-20 xs:mx-6 xxs:mx-16 xs:space-y-4 xs:justify-center xs:mt-14">
-                    <div className="md:flex xs:space-y-4 md:space-x-4 md:mx-20">
+                    <div className="lg:w-7/12 lg:mx-auto md:flex xs:space-y-4 md:space-x-4 md:mx-20">
                         <button className="xxs:w-full flex items-center xs:truncate justify-center xs:text-center xs:p-4 xs:px-10 bg-purple-500 rounded-lg">
                             <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
                             <span className="xs:ml-2 font-bold">Hire developers</span>
@@ -34,8 +34,8 @@ function Main(){
                     <div className="xs:mt-16 xs:mx-4">
                         <Video />
                     </div>
-                    <div className="xs:mx-4" id="iiup">
-                        <h1 className="xs:font-bold xs:text-xl">Get <span>instant</span> candidate matches without searching</h1>
+                    <div className="xs:mx-4 lg:pl-8 lg:pt-8" id="iiup">
+                        <h1 className="xs:font-bold xs:text-xl lg:text-3xl">Get <span>instant</span> candidate matches without searching</h1>
                         <ul className="xxs:text-lg xxs:font-bold" id="uuuul">
                             <li>Chat with HireAI to view your top matches from our global pool of 300,000+ developers</li>
                             <li>No more tedious searching, just view and hire your ideal candidate</li>
@@ -48,8 +48,8 @@ function Main(){
                     <div className="xs:mt-16 xs:mx-4">
                         <VideoTwo />
                     </div>
-                    <div className="xs:mx-4" id="iiup">
-                        <h1 className="xs:font-bold xs:text-xl xxs:">Identify top <br className="hidden xs:block xxs:hidden" />applicants with <span>no manual screening</span></h1>
+                    <div className="xs:mx-4 lg:pl-8 lg:pt-8" id="iiup">
+                        <h1 className="xs:font-bold xs:text-xl lg:text-3xl">Identify top <br className="hidden xs:block xxs:hidden" />applicants with <span>no manual screening</span></h1>
                         <ul className="xxs:text-lg xxs:font-bold" id="uuuul">
                             <li>Stop reviewing 100s of resumes and focus on your highest quality applicants only.</li>
                             <li>HireAI learns your perferences for more personalized result after each review.</li>
@@ -59,11 +59,11 @@ function Main(){
 
                 
                 {/** videothree */}
-                <div className="relative md:flex md:items-center">
-                    <div className="xs:mt-16 xs:mx-4 md:mx-0 md:w-25">
+                <div className="lg:mx-8 relative md:flex md:items-center">
+                    <div className="xs:mt-16 xs:mx-4 md:mx-0 md:w-25 mmd:w-8/12 lg:5/12">
                         <img src="https://cdn.arc.dev/images/client-landing/feature-3-1x.png" srcset="https://cdn.arc.dev/images/client-landing/feature-3-1x.png 1x, https://cdn.arc.dev/images/client-landing/feature-3-2x.png 2x" alt="hire faster with curated candidates" className="rounded-xl"/>
                     </div>
-                    <div className="xs:mx-4" id="iiup">
+                    <div className="xs:mx-4 lg:pt-8" id="iup">
                         <h1 className="xs:font-bold xs:text-xl md:text-2xl">Hire <span>4x faster</span> with curated candidates</h1>
                         <ul className="" id="uuuul">
                             <li>Meet curated, ready-to-interview candidates right now</li>
@@ -86,23 +86,23 @@ function Main(){
                     <div className="xs:justify-center xs:flex">
                         <img className="w-10" src="https://cdn.arc.dev/images/client-landing/sparkle.svg" aria-hidden="true" />
                     </div>
-                    <div className="relative xs:mx-auto xs:font-bold xs:text-3xl xs:text-center">
+                    <div className="relative lg:text-5xl xs:mx-auto xs:font-bold mmd:mx-14 mmd:text-4xl xs:text-3xl xs:text-center">
                         <div>Perfect matches at lightning speed with your personal AI recruiter</div>
                     </div>
                 </div>
 
                 <div className="relative xs:mx-4 xs:mt-10 ">
                     <div className="bg-white text-black xs:p-6 rounded-2xl">
-                        <div className="xs:flex xs:flex-col md:grid md:grid-cols-3 md:justify-items-center">
-                            <div className="md:border-r-2">
-                                <p className="xs:font-bold xs:text-3xl md:w-1/12">75% faster</p>
+                        <div className="xs:flex xs:flex-col md:grid md:grid-cols-3 md:justify-items-center lg:justify-items-start">
+                            <div className="md:border-r-2 lg:border-r-0">
+                                <p className="xs:font-bold xs:text-3xl md:w-1/12 lg:w-full">75% faster</p>
                                 <p>to fill open roles</p>
                             </div>
                             <div className="xs:mt-6 md:relative md:bottom-6">
                                 <p className="xs:font-bold xs:text-3xl">58% cost savings</p>
                                 <p>vs hiring locally</p>
                             </div>
-                            <div className="xs:mt-6 md:border-l-2 md:pl-6 md:relative md:bottom-6">
+                            <div className="xs:mt-6 md:border-l-2 md:pl-6 md:relative md:bottom-6 lg:border-0">
                                 <p className="xs:font-bold xs:text-3xl">800+ companies</p>
                                 <p>have hired developers on Arc</p>
                             </div>
@@ -110,24 +110,24 @@ function Main(){
                         <div className="ssm:grid ssm:grid-cols-2 ssm:gap-10 xs:space-y-12 xs:flex xs:flex-col ssm:top-10 ssm:relative">
                             <div>
                                 <img src="https://cdn.arc.dev/images/client-landing/save-time.svg" alt="" />
-                                <div className="xs:font-bold xs:my-2">Save time</div>
+                                <div className="xs:font-bold xs:my-2 lg:text-xl">Save time</div>
                                 <div>Instead of manually reviewing resumes, instantly find the best match candidates for you.</div>
                             </div>
                             <div className="ssm:relative ssm:bottom-10">
                                 <img src="https://cdn.arc.dev/images/client-landing/accuracy.svg" alt="" />
-                                <div className="xs:font-bold xs:my-2">Improve accuracy</div>
+                                <div className="xs:font-bold xs:my-2 lg:text-xl">Improve accuracy</div>
                                 <div>Instead of manually reviewing resumes, instantly find the best match candidates for you.</div>
                             </div>
                             
                             <div>
                                 <img src="https://cdn.arc.dev/images/client-landing/reduce-bias.svg" alt="" />
-                                <div className="xs:font-bold xs:my-2">Reduce bias</div>
+                                <div className="xs:font-bold xs:my-2 lg:text-xl">Reduce bias</div>
                                 <div>Evaluate candidates with the same criteria to ensure fairness and reduce the impact of bias.</div>
                             </div>
                             
                             <div className="xs:pb-10">
                                 <img src="https://cdn.arc.dev/images/client-landing/better-exp.svg" alt="" />
-                                <div className="xs:font-bold xs:my-2">Better candidate experience</div>
+                                <div className="xs:font-bold xs:my-2 lg:text-xl">Better candidate experience</div>
                                 <div>Streaming the candidate experience by quickly finding and reaching out to qualified ones.</div>
                             </div>
                         </div>
@@ -138,13 +138,13 @@ function Main(){
                         <img className="w-10" src="https://cdn.arc.dev/images/client-landing/sparkle.svg" aria-hidden="true" />
                     </div>
                     <div className="relative xs:mx-auto xs:font-bold xs:text-3xl xs:text-center">
-                        <div className="xs:mt-2">Hear from our clients</div>
+                        <div className="xs:mt-2 mmd:text-4xl">Hear from our clients</div>
                     </div>
                 </div>
-                <div className="xs:relative xs:overflow-x-scroll xs:px-4 sm:w-12/12 xs:py-8">
-                    <div className="xs:inline-flex md:grid md:grid-cols-2 md:overflow-x-hidden xs:overflow-x-scroll">
-                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96">
-                            <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
+                <div className="mmd:overflow-x-hidden xs:relative xs:overflow-x-scroll xs:px-4 sm:w-12/12 xs:py-8">
+                    <div className="xs:inline-flex md:grid md:grid-cols-2 mmd:pl-4 mmd:gap-6 md:overflow-x-hidden xs:overflow-x-scroll">
+                        <div className="decoration-slice xs:mt-10 xs:w-64 lg:w-full xxs:w-96">
+                            <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl lg:w-full lg:p-8">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
                             </div>
                             <div className="xs:flex xs:mt-4">
@@ -157,8 +157,8 @@ function Main(){
                                 </div>
                             </div>
                         </div>
-                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96">
-                            <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
+                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96 lg:w-full">
+                            <div className=" lg:p-8 xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
                             </div>
                             <div className="xs:flex xs:mt-4">
@@ -171,8 +171,8 @@ function Main(){
                                 </div>
                             </div>
                         </div>
-                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96">
-                            <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
+                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96 lg:w-full">
+                            <div className=" lg:p-8 xs:bg-white xs:text-black xs:p-4 xs:w-11/12 lg:w-full xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
                             </div>
                             <div className="xs:flex xs:mt-4">
@@ -185,8 +185,8 @@ function Main(){
                                 </div>
                             </div>
                         </div>
-                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96">
-                            <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
+                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96 lg:w-full">
+                            <div className=" lg:p-8 xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
                             </div>
                             <div className="xs:flex xs:mt-4">
@@ -217,7 +217,7 @@ function Main(){
                 </div>
 
                 <div className="xs:mt-12 xs:mx-7 md:w-full md:mt-24 md:ml-0 xxs:mx-16 relative ssm:mx-24" id="tytyty">
-                    <button className="xs:flex md:w-4/12 md:mx-auto xs:w-full rounded-lg xs:justify-center xs:p-4 bg-purple-600">
+                    <button className="xs:flex md:w-4/12 lg:w-3/12 md:mx-auto xs:w-full rounded-lg xs:justify-center xs:p-4 bg-purple-600">
                         <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
                         <span className="xs:ml-4 xs:font-bold">Hire developers</span>
                     </button>
@@ -235,8 +235,8 @@ function Main(){
                         <div className="xs:mt-2 md:text-4xl">How to use Arc</div>
                     </div>
                 </div>
-
-                <div className="relative md:w-6/12 md:mt-14 md:mx-auto xs:border-4 xs:p-6 xs:mx-4 xs:mt-10 rounded-2xl">
+                <div className="lg:grid lg:grid-cols-2 lg:mt-14 lg:space-x-2 lg:w-10/12 lg:mx-auto">
+                    <div className="lg:w-10/12 relative md:w-6/12 md:mt-14 lg:mt-0 md:mx-auto xs:border-4 xs:p-6 xs:mx-4 xs:mt-10 rounded-2xl">
                     <div className="xs:flex xs:items-center">
                         <img src="https://cdn.arc.dev/images/client-landing/hire-ai.png" alt="" className="xs:h-7"/>
                         <span className="xs:font-bold xs:w-5/12 xs:ml-3">Instant AI matches</span>
@@ -253,9 +253,9 @@ function Main(){
                         <button className="xs:p-4 xs:rounded-lg xs:bg-purple-600 xs:w-full">Hire full-time developers</button>
                         <button className="xs:p-4 xs:w-full">Free trial Cancel anytime</button>
                     </div>
-                </div>
+                    </div>
                 
-                <div className="relative md:w-6/12 md:mx-auto xs:border-4 xs:p-6 xs:mx-4 xs:mt-10 rounded-2xl">
+                    <div className="relative lg:w-10/12 md:w-6/12 md:mx-auto lg:mt-0 xs:border-4 xs:p-6 xs:mx-4 xs:mt-10 rounded-2xl">
                     <div className="xs:flex xs:items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <g fill="none" fill-rule="evenodd">
@@ -282,15 +282,53 @@ function Main(){
                         </button>
                     </div>
                     
+                    </div>
                 </div>
-
-                <div className="md:text-4xl xs:mt-20 xs:mb-10 xs:text-center xxs:text-3xl xs:font-bold xs:text-2xl">
+                <div className="lg:mt-40 md:text-4xl mmd:mx-4 xs:mt-20 xs:mb-10 xs:text-center xxs:text-3xl xs:font-bold xs:text-2xl">
                     <h1>Arc is the AI-powered remote jobs marketplace for software developers</h1>
                 </div>
                 <div className="relative xs:mx-4 xs:mt-24">
-                    <div className="inline-flex xs:overflow-x-hidden w-full">
+                    <div className="inline-flex xs:overflow-x-hidden w-full md:space-x-6">
                         <div className="relative py-8 pb-0">
-                            <div className="xs:w-64 xxs:w-full">
+                            <div className="xs:w-64 xxs:w-full md:w-96">
+                                <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
+                                <div className="border-2 rounded-xl xs:p-4 xs:text-md">
+                                <div>
+                                    <p className="xs:font-bold">Name</p>
+                                    <p className="xs:font-bold">Skill Name</p>
+                                </div>
+                                <div className="xs:mt-6">
+                                    <p>skills</p>
+                                    <div className="xs:mt-5 xs:space-x-2">
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Node.js</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Ruby on Rail</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">JavaScripts</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="relative py-8 pb-0">
+                            <div className="xs:w-64 xxs:w-full md:w-96">
+                                <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
+                                <div className="border-2 rounded-xl xs:p-4 xs:text-md">
+                                <div>
+                                    <p className="xs:font-bold">Name</p>
+                                    <p className="xs:font-bold">Skill Name</p>
+                                </div>
+                                <div className="xs:mt-6">
+                                    <p>skills</p>
+                                    <div className="xs:mt-5 xs:space-x-2">
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Node.js</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Ruby on Rail</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">JavaScripts</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="relative py-8 pb-0">
+                            <div className="xs:w-64 xxs:w-full md:w-96">
                                 <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
                                 <div className="border-2 rounded-xl xs:p-4 xs:text-md">
                                 <div>
@@ -310,7 +348,7 @@ function Main(){
                         </div>
                     </div>
                 </div>
-
+<div className="lg:mt-20 lg:w-10/12 lg:mx-auto">
                 <div className="relative xs:mt-14">
                     <div className="">
                         <h1 className="xs:text-xl xs:text-center xxs:text-2xl xxs:font-bold md:text-3xl">Find top remote developers today</h1>
@@ -414,7 +452,9 @@ function Main(){
                     </div>
                 </div>
 
-                <div className="relative xs:mt-24 xs:mx-8 space-y-4 xxs:mx-20 ssm:mx-24">
+                </div>
+
+                <div className="lg:w-6/12 lg:mx-auto relative xs:mt-24 xs:mx-8 space-y-4 xxs:mx-20 ssm:mx-24">
                     <div className="md:space-y-4 md:flex md:space-x-4">
                     <button className="xs:flex xs:items-center bg-purple-700 p-3 xs:w-full xs:justify-center rounded-md">
                         <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>

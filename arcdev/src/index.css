@@ -8,7 +8,26 @@
     margin-left: 20px;
     list-style-position: outside;
 }
-#iiup{
+@media screen and (min-width: 992px){
+    #iiup::after,
+    #iup::after{
+        content: "";
+        top: -8px;
+        position: absolute;
+        left: 25px !important;
+        width: 100px;
+        height: 4px;
+        background-image: linear-gradient(purple, pink, white);
+        background-color: orangered;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #iup::after{
+        lefT: 0 !important;
+    }
+}
+#iiup,
+#iup{
     margin-top: 20px;
     position: relative;
     margin-left: 30px;

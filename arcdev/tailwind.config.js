@@ -10,6 +10,7 @@ export default {
       ssm: "400px",
       sm: "468px",
       md: "768px",
+      mmd: "800px",
       lg: "992px",
       xl: "1440px"
     },
