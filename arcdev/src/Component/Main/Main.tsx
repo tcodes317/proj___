@@ -5,24 +5,28 @@ function Main(){
     return(
         <>
             <div className="bg-black text-white relative pt-44">
-                <div className="xxs:text-6xl xs:text-5xl xs:text-center xs:font-bold">
-                    <h1>Hire the world's <div>top remote developers</div> faster</h1>
+                <div className="xxs:text-6xl md:text-6xl ssm:text-5xl xs:text-5xl xs:text-center xs:font-bold">
+                    <h1>Hire the world's <div id="ani">top remote developers</div> faster</h1>
                 </div>
                 <div className="xs:text-center xs:mx-6 xs:mt-8 xxs:text-md">
                     <span>HireAI helps you skip outreach, job ads and resume screening.</span>
                 </div>
 
-                <div className="xs:flex xs:flex-col xs:mx-6 xxs:mx-14 xs:space-y-4 xs:justify-center xs:mt-14">
-                    <button className="flex items-center xs:text-center xs:p-4 xs:px-10 bg-purple-500 rounded-lg">
-                        <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
-                        <span className="xs:ml-2 font-bold">Hire developers</span>
-                    </button>
-                    <button className="xs:text-center xs:p-4 xs:px-10 bg-black border-2 rounded-lg">
-                        <span>Find remote jobs</span>
-                    </button>
-                    <button className="xs:mt-6 xs:text-slate-300">
+                <div className="xs:flex xs:flex-col ssm:mx-20 xs:mx-6 xxs:mx-16 xs:space-y-4 xs:justify-center xs:mt-14">
+                    <div className="md:flex xs:space-y-4">
+                        <button className="xxs:w-full flex items-center xs:truncate justify-center xs:text-center xs:p-4 xs:px-10 bg-purple-500 rounded-lg">
+                            <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
+                            <span className="xs:ml-2 font-bold">Hire developers</span>
+                        </button>
+                        <button className="xs:w-full xs:text-center xs:p-4 xs:px-10 bg-black border-2 rounded-lg">
+                            <span>Find remote jobs</span>
+                        </button>
+                    </div>
+                    <div className="xs:text-center ">
+                    <button className=" xs:text-slate-300">
                         <span>Free trial • Cancel anytime</span>
                     </button>
+                    </div>
                 </div>
 
                 {/** video */}
@@ -68,7 +72,7 @@ function Main(){
                     </div>
                 </div>
                 
-                <div id="eeet" className="xs:relative xs:flex xs:flex-col xs:mx-5 xs:mt-12 xxs:mx-16 xxs:justify-center">
+                <div id="eeet" className="ssm:mx-20 xs:relative xs:flex xs:flex-col xs:mx-5 xs:mt-12 xxs:mx-16 xxs:justify-center">
                     <button className="flex items-center xs:text-center xs:p-4 xs:px-10 bg-purple-500 rounded-lg">
                         <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
                         <span className="xs:ml-2 font-bold xs:truncate">Get matches now</span>
@@ -103,13 +107,13 @@ function Main(){
                                 <p>have hired developers on Arc</p>
                             </div>
                         </div>
-                        <div className="xs:space-y-12 xs:flex xs:flex-col">
+                        <div className="ssm:grid ssm:grid-cols-2 ssm:gap-10 xs:space-y-12 xs:flex xs:flex-col ssm:top-10 ssm:relative">
                             <div>
                                 <img src="https://cdn.arc.dev/images/client-landing/save-time.svg" alt="" />
                                 <div className="xs:font-bold xs:my-2">Save time</div>
                                 <div>Instead of manually reviewing resumes, instantly find the best match candidates for you.</div>
                             </div>
-                            <div>
+                            <div className="ssm:relative ssm:bottom-10">
                                 <img src="https://cdn.arc.dev/images/client-landing/accuracy.svg" alt="" />
                                 <div className="xs:font-bold xs:my-2">Improve accuracy</div>
                                 <div>Instead of manually reviewing resumes, instantly find the best match candidates for you.</div>
@@ -139,7 +143,7 @@ function Main(){
                 </div>
                 <div className="xs:relative xs:overflow-x-scroll xs:px-4 sm:w-12/12 xs:py-8">
                     <div className="xs:inline-flex xs:overflow-x-scroll">
-                        <div className="decoration-slice xs:mt-10 xs:w-64">
+                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96">
                             <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
                             </div>
@@ -153,7 +157,7 @@ function Main(){
                                 </div>
                             </div>
                         </div>
-                        <div className="decoration-slice xs:mt-10 xs:w-64">
+                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96">
                             <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
                             </div>
@@ -167,8 +171,7 @@ function Main(){
                                 </div>
                             </div>
                         </div>
-                        
-                        <div className="decoration-slice xs:mt-10 xs:w-64">
+                        <div className="decoration-slice xs:mt-10 xs:w-64 xxs:w-96">
                             <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
                             </div>
@@ -185,7 +188,7 @@ function Main(){
                     </div>
                 </div>
 
-                <div className="xs:relative xs:flex xs:mt-4 xs:space-x-1.5 xs:items-center">
+                <div className="xs:relative xs:flex xs:mt-4 xs:space-x-1.5 xxs:space-x-8 xs:items-center">
                     <img src="https://cdn.arc.dev/images/client-landing/company-logos/fivestars.svg" alt="" className="xs:h-10"/>
                     <img src="https://cdn.arc.dev/images/client-landing/company-logos/hopper.svg" alt="" className="xs:h-10"/>
                     <img src="https://cdn.arc.dev/images/client-landing/company-logos/hims.svg" alt="" className="xs:h-10"/>
@@ -272,9 +275,9 @@ function Main(){
                 </div>
 
                 <div className="relative xs:mx-4 xs:mt-24">
-                    <div className="inline-flex xs:overflow-x-hidden">
+                    <div className="inline-flex xs:overflow-x-hidden w-full">
                         <div className="xs:w-64 xxs:w-full">
-                            <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-10 -top-10"/>
+                            <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-10 ssm:right-6"/>
                             <div className="border-2 rounded-xl xs:p-4 xs:text-md">
                             <div>
                                 <p className="xs:font-bold">Name</p>
@@ -290,6 +293,7 @@ function Main(){
                             </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
 
@@ -396,7 +400,7 @@ function Main(){
                     </div>
                 </div>
 
-                <div className="relative xs:mt-24 xs:mx-8 space-y-4 xxs:mx-20">
+                <div className="relative xs:mt-24 xs:mx-8 space-y-4 xxs:mx-20 ssm:mx-24">
                     <button className="xs:flex xs:items-center bg-purple-700 p-3 xs:w-full xs:justify-center rounded-md">
                         <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
                         <span className="xs:ml-2 font-bold">Hire developers</span>
@@ -408,7 +412,6 @@ function Main(){
                         <span>Free trial Cancel anytime</span>
                     </button>
                 </div>
-
                 <div className="relative xs:mt-24 xs:text-center xs:w-full">
                     <div>
                         <h1 className="uppercase xs:font-bold">Brand</h1>
