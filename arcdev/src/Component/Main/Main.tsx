@@ -1,9 +1,14 @@
 import Video from "../Clips/Clips";
 import VideoTwo from "../Clips/Clip_i";
+import Menu from "../Menu/Menu";
+
 
 function Main(){
     return(
         <>
+            <div className="z-50 absolute top-0 left-0 max-h-screen" id="men">
+                <Menu />
+            </div>
             <div className="bg-black text-white relative pt-44">
                 <div className="xxs:text-6xl lg:text-7xl md:text-6xl ssm:text-5xl xs:text-5xl xs:text-center xs:font-bold">
                     <h1>Hire the world's <div id="ani">top remote developers </div>faster </h1>
