@@ -2,7 +2,7 @@ function Footer(){
     return(
         <>
             <div className="relative xs:bg-black xs:text-white xs:border-t-2 md:border-t-0 md:pt-0 xs:pt-10">
-                <div className="md:pt-8 md:pb-3 md:w-11/12 md:mx-auto md:border-t-2 xs:flex xs:flex-col md:flex-row md:items-center md:justify-between">
+                <div className="xl:w-8/12 md:pt-8 md:pb-3 md:w-11/12 md:mx-auto md:border-t-2 xs:flex xs:flex-col md:flex-row md:items-center md:justify-between">
                     <div className="xs:flex xs:flex-col md:flex-row md:order-1">
                         <div className="xs:flex xs:items-center xs:justify-center md:order-2 xs:space-x-2 xs:mb-4">
                             <i className="px-3.5 rounded-full fa fa-facebook p-3 bg-white text-black"></i>
