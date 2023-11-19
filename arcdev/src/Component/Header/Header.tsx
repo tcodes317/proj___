@@ -1,3 +1,5 @@
+import Menu from "../Menu/Menu";
+
 function Header(){
     return(
         <>
@@ -21,6 +23,7 @@ function Header(){
                         </button>
                     </div>
                 </div>
+                <Menu />
             </div>
         </>
     )
