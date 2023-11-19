@@ -7,7 +7,7 @@ function Main(){
         <>
             <div className="bg-black text-white relative pt-44">
                 <div className="xxs:text-6xl lg:text-7xl md:text-6xl ssm:text-5xl xs:text-5xl xs:text-center xs:font-bold">
-                    <h1>Hire the world's <div id="ani">top remote developers </div>faster </h1>
+                    <h1>Hire the world's <div>top remote developers </div> faster </h1>
                 </div>
                 <div className="mmd:text-2xl xs:text-center xs:mx-6 xs:mt-8 xxs:text-md md:text-xl">
                     <span>HireAI helps you skip outreach, job ads and resume screening.</span>
@@ -290,7 +290,7 @@ function Main(){
                 </div>
                 <div className="relative xs:mx-4 xs:mt-24">
                     <div className="inline-flex xs:overflow-x-hidden w-full md:space-x-6">
-                        <div className="relative py-8 pb-0">
+                        <div className="relative py-8 pb-0 xxs:w-full">
                             <div className="xs:w-64 xxs:w-full md:w-96">
                                 <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
                                 <div className="border-2 rounded-xl xs:p-4 xs:text-md">
@@ -456,7 +456,7 @@ function Main(){
                 </div>
 
                 <div className="lg:w-6/12 lg:mx-auto relative xs:mt-24 xs:mx-8 space-y-4 xxs:mx-20 ssm:mx-24">
-                    <div className="md:space-y-4 md:flex md:space-x-4">
+                    <div className="md:space-y-4 md:flex md:space-x-4 space-y-4">
                     <button className="xs:flex xs:items-center bg-purple-700 p-3 xs:w-full xs:justify-center rounded-md">
                         <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
                         <span className="xs:ml-2 font-bold">Hire developers</span>
