@@ -54,7 +54,7 @@ function Header(){
                                     <span className="font-bold">For Developers</span>
                                     <i className="fa fa-angle-down text-sm relative mt-1 ml-2"></i>
                                 </button>
-                                <div className="absolute bg-white p-2 px-4 mt-2 rounded-lg">
+                                <div className="hidden absolute bg-white p-2 px-4 mt-2 rounded-lg">
                                     <button className="py-3 px-2 flex items-center truncate">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#ArcSvg_clip0_7_20)"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9-9-4-9-9zm1.4 0c0 4.2 3.4 7.6 7.6 7.6 4.2 0 7.6-3.4 7.6-7.6 0-4.2-3.4-7.6-7.6-7.6-4.2 0-7.6 3.4-7.6 7.6zm5.61 3.306v-.001l-.017-.114c-.204-1.331-1.305-2.298-2.619-2.298-.285 0-.565.047-.832.136l-.126.043L6 11.783l.126-.043a3.934 3.934 0 0 1 1.248-.204c1.277 0 2.423.613 3.156 1.578.945-2.134 3.06-3.614 5.472-3.614.64 0 1.27.103 1.871.305l.127.043-.416 1.288-.127-.041a4.57 4.57 0 0 0-1.455-.238c-2.386 0-4.422 1.9-4.634 4.325l-.01.102v.022c0 .38-.302.688-.674.688a.682.682 0 0 1-.674-.688z" fill="#333"></path></g><defs><clipPath id="ArcSvg_clip0_7_20"><path fill="#fff" d="M0 0h24v24H0z"></path></clipPath></defs></svg>
                                         <span className="ml-4 mr-20">Overview</span>

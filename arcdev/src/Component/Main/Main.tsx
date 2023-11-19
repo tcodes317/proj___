@@ -13,7 +13,7 @@ function Main(){
                     <span>HireAI helps you skip outreach, job ads and resume screening.</span>
                 </div>
 
-                <div className="xs:flex xs:flex-col ssm:mx-20 xs:mx-6 xxs:mx-16 xs:space-y-4 xs:justify-center xs:mt-14">
+                <div className="xs:flex xs:flex-col ssm:mx-20 xs:mx-6 xxs:mx-16 lgg:mt-24 xs:space-y-4 xs:justify-center xs:mt-14">
                     <div className="lg:w-7/12 lg:mx-auto md:flex xs:space-y-4 md:space-x-4 md:mx-20">
                         <button className="xxs:w-full flex items-center xs:truncate justify-center xs:text-center xs:p-4 xs:px-10 bg-purple-500 rounded-lg">
                             <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
@@ -31,7 +31,7 @@ function Main(){
                 </div>
 
                 {/** video */}
-                <div className="relative">
+                <div className="relative lgg:w-10/12 lgg:mx-auto">
                     <div className="xs:mt-16 xs:mx-4">
                         <Video />
                     </div>
@@ -45,11 +45,11 @@ function Main(){
                 </div>
                 
                 {/** video */}
-                <div className="relative">
-                    <div className="xs:mt-16 xs:mx-4">
+                <div className="relative lgg:w-11/12 lgg:mx-auto lgg:flex lgg:items-center">
+                    <div className="xs:mt-16 xs:mx-4 lgg:mx-0">
                         <VideoTwo />
                     </div>
-                    <div className="xs:mx-4 lg:pl-8 lg:pt-8" id="iiup">
+                    <div className="xs:mx-4 lg:pl-8 lg:pt-8 lgg:pl-0 lgg:w-full lgg:mx-0 border-2" id="iiup">
                         <h1 className="xs:font-bold xs:text-xl lg:text-3xl">Identify top <br className="hidden xs:block xxs:hidden" />applicants with <span>no manual screening</span></h1>
                         <ul className="xxs:text-lg xxs:font-bold" id="uuuul">
                             <li>Stop reviewing 100s of resumes and focus on your highest quality applicants only.</li>
