@@ -49,7 +49,7 @@ function Main(){
                     <div className="xs:mt-16 xs:mx-4 lgg:mx-0">
                         <VideoTwo />
                     </div>
-                    <div className="xs:mx-4 lg:pl-8 lg:pt-8 lgg:pl-0 lgg:w-full lgg:mx-0 border-2" id="iiup">
+                    <div className="xs:mx-4 lg:pl-8 lg:pt-8 lgg:pl-0 lgg:w-full lgg:mx-0" id="iiup">
                         <h1 className="xs:font-bold xs:text-xl lg:text-3xl">Identify top <br className="hidden xs:block xxs:hidden" />applicants with <span>no manual screening</span></h1>
                         <ul className="xxs:text-lg xxs:font-bold" id="uuuul">
                             <li>Stop reviewing 100s of resumes and focus on your highest quality applicants only.</li>
@@ -60,8 +60,8 @@ function Main(){
 
                 
                 {/** videothree */}
-                <div className="lg:mx-8 relative md:flex md:items-center">
-                    <div className="xs:mt-16 xs:mx-4 md:mx-0 md:w-25 mmd:w-8/12 lg:5/12">
+                <div className="lgg:px-12 lgg:pl-4 lgg:mt-24 lgg:mb-24 lgg:order-2 lgg:justify-between lg:mx-8 relative md:flex md:items-center">
+                    <div className="lgg:order-2 lgg:w-5/12 border-2 xs:mt-16 xs:mx-4 md:mx-0 md:w-25 mmd:w-8/12 lg:5/12">
                         <img src="https://cdn.arc.dev/images/client-landing/feature-3-1x.png" srcset="https://cdn.arc.dev/images/client-landing/feature-3-1x.png 1x, https://cdn.arc.dev/images/client-landing/feature-3-2x.png 2x" alt="hire faster with curated candidates" className="rounded-xl"/>
                     </div>
                     <div className="xs:mx-4 lg:pt-8" id="iup">
@@ -74,7 +74,7 @@ function Main(){
                 </div>
                 
                 <div id="eeet" className="ssm:mx-20 md:justify-center md:mx-0 xs:relative xs:flex xs:flex-col xs:mx-5 xs:mt-12 xxs:mx-16 xxs:justify-center">
-                    <button className="flex md:w-64 md:mx-auto md:items-center items-center xs:text-center xs:p-4 xs:px-10 bg-purple-500 rounded-lg">
+                    <button className="flex md:w-64 lgg:w-60 md:mx-auto md:items-center items-center xs:text-center xs:p-4 xs:px-10 bg-purple-500 rounded-lg">
                         <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
                         <span className="xs:ml-2 font-bold xs:truncate">Get matches now</span>
                     </button>
@@ -84,16 +84,16 @@ function Main(){
                 </div>
 
                 <div className="xs:flex-col xs:flex xs:mt-24 xs:mx-3">
-                    <div className="xs:justify-center xs:flex">
+                    <div className="xs:justify-center xs:flex lgg:mt-8 mb-14">
                         <img className="w-10" src="https://cdn.arc.dev/images/client-landing/sparkle.svg" aria-hidden="true" />
                     </div>
-                    <div className="relative lg:text-5xl xs:mx-auto xs:font-bold mmd:mx-14 mmd:text-4xl xs:text-3xl xs:text-center">
+                    <div className="relative lg:text-5xl lgg:mb-14 xs:mx-auto xs:font-bold mmd:mx-14 mmd:text-4xl xs:text-3xl xs:text-center">
                         <div>Perfect matches at lightning speed with your personal AI recruiter</div>
                     </div>
                 </div>
 
-                <div className="relative xs:mx-4 xs:mt-10 ">
-                    <div className="bg-white text-black xs:p-6 rounded-2xl">
+                <div className="relative xs:mx-4 xs:mt-10 lgg:mx-24">
+                    <div className="bg-white text-black xs:p-6 lgg:p-12 rounded-2xl">
                         <div className="xs:flex xs:flex-col md:grid md:grid-cols-3 md:justify-items-center lg:justify-items-start">
                             <div className="md:border-r-2 lg:border-r-0">
                                 <p className="xs:font-bold xs:text-3xl md:w-1/12 lg:w-full">75% faster</p>
@@ -108,7 +108,7 @@ function Main(){
                                 <p>have hired developers on Arc</p>
                             </div>
                         </div>
-                        <div className="ssm:grid ssm:grid-cols-2 ssm:gap-10 xs:space-y-12 xs:flex xs:flex-col ssm:top-10 ssm:relative">
+                        <div className="ssm:grid  lgg:flex lgg:flex-row ssm:grid-cols-2 ssm:gap-10 xs:space-y-12 xs:flex xs:flex-col ssm:top-10 ssm:relative">
                             <div>
                                 <img src="https://cdn.arc.dev/images/client-landing/save-time.svg" alt="" />
                                 <div className="xs:font-bold xs:my-2 lg:text-xl">Save time</div>
@@ -119,17 +119,18 @@ function Main(){
                                 <div className="xs:font-bold xs:my-2 lg:text-xl">Improve accuracy</div>
                                 <div>Instead of manually reviewing resumes, instantly find the best match candidates for you.</div>
                             </div>
-                            
-                            <div>
+                            <div className="lgg:relative lgg:flex lgg:space-x-8 lgg:bottom-12">
+                                <div>
                                 <img src="https://cdn.arc.dev/images/client-landing/reduce-bias.svg" alt="" />
                                 <div className="xs:font-bold xs:my-2 lg:text-xl">Reduce bias</div>
                                 <div>Evaluate candidates with the same criteria to ensure fairness and reduce the impact of bias.</div>
-                            </div>
+                                </div>
                             
-                            <div className="xs:pb-10">
+                                <div className="xs:pb-10">
                                 <img src="https://cdn.arc.dev/images/client-landing/better-exp.svg" alt="" />
                                 <div className="xs:font-bold xs:my-2 lg:text-xl">Better candidate experience</div>
                                 <div>Streaming the candidate experience by quickly finding and reaching out to qualified ones.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -139,11 +140,11 @@ function Main(){
                         <img className="w-10" src="https://cdn.arc.dev/images/client-landing/sparkle.svg" aria-hidden="true" />
                     </div>
                     <div className="relative xs:mx-auto xs:font-bold xs:text-3xl xs:text-center">
-                        <div className="xs:mt-2 mmd:text-4xl">Hear from our clients</div>
+                        <div className="xs:mt-2 mmd:text-4xl lgg:text-5xl">Hear from our clients</div>
                     </div>
                 </div>
                 <div className="mmd:overflow-x-hidden xs:relative xs:overflow-x-scroll xs:px-4 sm:w-12/12 xs:py-8">
-                    <div className="xs:inline-flex md:grid md:grid-cols-2 mmd:pl-4 mmd:gap-6 md:overflow-x-hidden xs:overflow-x-scroll">
+                    <div className="xs:inline-flex md:grid md:grid-cols-2 lgg:gap-16 mmd:pl-4 mmd:gap-6 md:overflow-x-hidden xs:overflow-x-scroll">
                         <div className="decoration-slice xs:mt-10 xs:w-64 lg:w-full xxs:w-96">
                             <div className="xs:bg-white xs:text-black xs:p-4 xs:w-11/12 xs:rounded-r-2xl rounded-t-xl rounded-b-l-xl lg:w-full lg:p-8">Within a week of interviewing, I realized Arc bought me a lot of high quality developers. They've been some of the 
                                 <span>best hires we've ever made.</span>
@@ -217,7 +218,7 @@ function Main(){
                     <img src="https://cdn.arc.dev/images/client-landing/company-logos/wefunder.svg" alt="" className="xs:h-10"/>
                 </div>
 
-                <div className="xs:mt-12 xs:mx-7 md:w-full md:mt-24 md:ml-0 xxs:mx-16 relative ssm:mx-24" id="tytyty">
+                <div className="lgg:w-9/12 lgg:mx-auto xs:mt-12 xs:mx-7 md:w-full md:mt-24 md:ml-0 xxs:mx-16 relative ssm:mx-24" id="tytyty">
                     <button className="xs:flex md:w-4/12 lg:w-3/12 md:mx-auto xs:w-full rounded-lg xs:justify-center xs:p-4 bg-purple-600">
                         <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
                         <span className="xs:ml-4 xs:font-bold">Hire developers</span>
@@ -228,12 +229,12 @@ function Main(){
                 </div>
 
                 
-                <div className="xs:flex-col xs:flex xs:mt-24 xs:mx-3">
+                <div className="xs:flex-col xs:flex xs:mt-24 lgg:mt-36 xs:mx-3">
                     <div className="xs:justify-center xs:flex">
                         <img className="w-10" src="https://cdn.arc.dev/images/client-landing/sparkle.svg" aria-hidden="true" />
                     </div>
-                    <div className="relative xs:mx-auto xs:font-bold xs:text-3xl xs:text-center">
-                        <div className="xs:mt-2 md:text-4xl">How to use Arc</div>
+                    <div className="relative xs:mx-auto lgg:mb-12 xs:font-bold xs:text-3xl xs:text-center">
+                        <div className="xs:mt-2 md:text-4xl lgg:text-5xl">How to use Arc</div>
                     </div>
                 </div>
                 <div className="lg:grid lg:grid-cols-2 lg:mt-14 lg:space-x-2 lg:w-10/12 lg:mx-auto">
@@ -285,12 +286,12 @@ function Main(){
                     
                     </div>
                 </div>
-                <div className="lg:mt-40 md:text-4xl mmd:mx-4 xs:mt-20 xs:mb-10 xs:text-center xxs:text-3xl xs:font-bold xs:text-2xl">
+                <div className="lgg:px-24 lgg:text-5xl lg:mt-40 md:text-4xl mmd:mx-4 xs:mt-20 xs:mb-10 xs:text-center xxs:text-3xl xs:font-bold xs:text-2xl">
                     <h1>Arc is the AI-powered remote jobs marketplace for software developers</h1>
                 </div>
                 <div className="relative xs:mx-4 xs:mt-24">
                     <div className="inline-flex xs:overflow-x-hidden w-full md:space-x-6">
-                        <div className="relative py-8 pb-0 xxs:w-full">
+                        <div className="relative py-8 lgg:w-96 pb-0 xxs:w-full">
                             <div className="xs:w-64 xxs:w-full md:w-96">
                                 <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
                                 <div className="border-2 rounded-xl xs:p-4 xs:text-md">
@@ -309,7 +310,7 @@ function Main(){
                                 </div>
                             </div>
                         </div>
-                        <div className="relative py-8 pb-0">
+                        <div className="relative py-8 lgg:w-96 pb-0 xxs:w-full">
                             <div className="xs:w-64 xxs:w-full md:w-96">
                                 <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
                                 <div className="border-2 rounded-xl xs:p-4 xs:text-md">
@@ -328,7 +329,46 @@ function Main(){
                                 </div>
                             </div>
                         </div>
-                        <div className="relative py-8 pb-0">
+                        <div className="relative py-8 lgg:w-96 pb-0 xxs:w-full">
+                            <div className="xs:w-64 xxs:w-full md:w-96">
+                                <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
+                                <div className="border-2 rounded-xl xs:p-4 xs:text-md">
+                                <div>
+                                    <p className="xs:font-bold">Name</p>
+                                    <p className="xs:font-bold">Skill Name</p>
+                                </div>
+                                <div className="xs:mt-6">
+                                    <p>skills</p>
+                                    <div className="xs:mt-5 xs:space-x-2">
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Node.js</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Ruby on Rail</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">JavaScripts</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="relative py-8 lgg:w-96 pb-0 xxs:w-full">
+                            <div className="xs:w-64 xxs:w-full md:w-96">
+                                <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
+                                <div className="border-2 rounded-xl xs:p-4 xs:text-md">
+                                <div>
+                                    <p className="xs:font-bold">Name</p>
+                                    <p className="xs:font-bold">Skill Name</p>
+                                </div>
+                                <div className="xs:mt-6">
+                                    <p>skills</p>
+                                    <div className="xs:mt-5 xs:space-x-2">
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Node.js</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">Ruby on Rail</span>
+                                        <span className="xs:p-2 xs:py-1 xs:bg-gray-600">JavaScripts</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="relative py-8 lgg:w-96 pb-0 xxs:w-full">
                             <div className="xs:w-64 xxs:w-full md:w-96">
                                 <img src="https://cdn.arc.dev/images/client-landing/developers/Forrest.jpg" alt="" className="z-100 rounded-full xs:h-20 border-2 absolute xs:right-3 xxs:right-6 -top-0 ssm:right-6"/>
                                 <div className="border-2 rounded-xl xs:p-4 xs:text-md">
@@ -354,14 +394,13 @@ function Main(){
                     <div className="">
                         <h1 className="xs:text-xl xs:text-center xxs:text-2xl xxs:font-bold md:text-3xl">Find top remote developers today</h1>
                     </div>
-                    <div className="xs:mt-10 xs:mb-10 xxs:w-80 xxs:mx-auto md:grid md:grid-cols-2 md:w-11/12">
+                    <div className="xs:mt-10 xs:mb-10 xxs:w-80 lgg:space-y-2 lgg:w-9/12 xxs:mx-auto md:grid md:grid-cols-2 md:w-11/12">
                         <div className="xs:flex md:flex md:items-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.172 9.173A.3.3 0 0 0 16.9 9h-3.555l3.509-5.54A.3.3 0 0 0 16.6 3h-4.8a.3.3 0 0 0-.268.166l-4.5 9a.3.3 0 0 0 .268.434h3.085l-3.361 7.984a.3.3 0 0 0 .506.31l9.6-11.4a.3.3 0 0 0 .042-.32z" fill="#333"></path>
                             </svg>
                             <span className="xs:text-sm xxs:text-md md:text-lg">300,000+ remote developers worldwide</span>
                         </div>
-                        
                         <div className="xs:flex md:flex md:items-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.172 9.173A.3.3 0 0 0 16.9 9h-3.555l3.509-5.54A.3.3 0 0 0 16.6 3h-4.8a.3.3 0 0 0-.268.166l-4.5 9a.3.3 0 0 0 .268.434h3.085l-3.361 7.984a.3.3 0 0 0 .506.31l9.6-11.4a.3.3 0 0 0 .042-.32z" fill="#333"></path>
@@ -374,7 +413,6 @@ function Main(){
                             </svg>
                             <span className="xs:text-sm md:text-lg">Experts covering 170+ technical skills</span>
                         </div>
-                        
                         <div className="xs:flex md:flex md:items-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.172 9.173A.3.3 0 0 0 16.9 9h-3.555l3.509-5.54A.3.3 0 0 0 16.6 3h-4.8a.3.3 0 0 0-.268.166l-4.5 9a.3.3 0 0 0 .268.434h3.085l-3.361 7.984a.3.3 0 0 0 .506.31l9.6-11.4a.3.3 0 0 0 .042-.32z" fill="#333"></path>
@@ -385,7 +423,7 @@ function Main(){
                 </div>
 
                 <div className="relative xs:flex xs:flex-col xs:mx-8 xxs:mx-4">
-                    <div className="md:grid md:grid-cols-3 relative xs:space-y-4 xxs:grid xxs:grid-cols-2 xxs:gap-5" id="eeeyy">
+                    <div className="md:grid md:grid-cols-3 lgg:grid-cols-4 lgg:w-10/12 lgg:mx-auto relative xs:space-y-4 xxs:grid xxs:grid-cols-2 xxs:gap-5" id="eeeyy">
                         <button className="xxs:truncate xs:w-full xxs:pl-2 xs:space-x-3 xs:flex xs:p-2 xs:items-center bg-slate-500 rounded-lg xs:px-8 border-2 xxs:px-0">
                             <img src="https://da2f8uix4p8om.cloudfront.net/20221122cwefl79xwa/categories/frontend-plain.svg" alt="" />
                             <span>Back-End</span>
@@ -452,88 +490,93 @@ function Main(){
                         </button>
                     </div>
                 </div>
-
                 </div>
 
-                <div className="lg:w-6/12 lg:mx-auto relative xs:mt-24 xs:mx-8 space-y-4 xxs:mx-20 ssm:mx-24">
-                    <div className="md:space-y-4 md:flex md:space-x-4 space-y-4">
-                    <button className="xs:flex xs:items-center bg-purple-700 p-3 xs:w-full xs:justify-center rounded-md">
-                        <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
-                        <span className="xs:ml-2 font-bold">Hire developers</span>
-                    </button>
-                    <button className="xs:flex xs:items-center border-2 p-3 xs:w-full xs:justify-center rounded-md">
-                        <span className="xs:font-bold">Find remote jobs</span>
-                    </button>
+                <div className="lgg:mt-32 lg:w-6/12 lg:mx-auto relative xs:mt-24 xs:mx-8 space-y-4 xxs:mx-20 ssm:mx-24">
+                    <div className="md:space-y-4 md:flex lgg:w-10/12 lgg:mx-auto md:space-x-4 space-y-4">
+                        <button className="xs:flex xs:items-center bg-purple-700 p-3 xs:w-full xs:justify-center rounded-md">
+                            <svg width="25" height="25" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707 18.897a5 5 0 0 0 3.802-4.115L15 5l1.49 9.782a5 5 0 0 0 3.803 4.115L25 20l-4.707 1.103a5 5 0 0 0-3.802 4.115L15 35l-1.49-9.782a5 5 0 0 0-3.803-4.115L5 20l4.707-1.103zm24.054 8.821a5 5 0 0 0 3.694-4.159L40 5l2.545 18.56a5 5 0 0 0 3.694 4.158L55 30l-8.761 2.282a5 5 0 0 0-3.694 4.159L40 55l-2.545-18.56a5 5 0 0 0-3.694-4.158L25 30l8.761-2.282zm-11.093 12.69a5 5 0 0 1-4.023 3.941L15 45l3.645.65a5 5 0 0 1 4.024 3.942L23.75 55l1.081-5.408a5 5 0 0 1 4.024-3.941L32.5 45l-3.645-.65a5 5 0 0 1-4.024-3.942L23.75 35l-1.081 5.408z" fill="#fff"></path></svg>
+                            <span className="xs:ml-2 font-bold">Hire developers</span>
+                        </button>
+                        <button className="xs:flex xs:items-center border-2 p-3 xs:w-full xs:justify-center rounded-md">
+                            <span className="xs:font-bold">Find remote jobs</span>
+                        </button>
                     </div>
                     <div>
-                    <button className="xs:text-center xs:w-full">
-                        <span>Free trial Cancel anytime</span>
-                    </button>
+                        <button className="xs:text-center xs:w-full">
+                            <span>Free trial Cancel anytime</span>
+                        </button>
                     </div>
                 </div>
-                <div className="relative xs:mt-24 xs:text-center xs:w-full">
+                <div className="lgg:flex lgg:space-x-12">
+                    <div className="relative bottom-5 lgg:w-4/12 xs:mt-24 xs:text-center xs:w-full">
+                    <div className="space-y-2">
                     <div>
-                        <h1 className="uppercase xs:font-bold">Brand</h1>
+                        <h1 className="uppercase xs:font-bold lgg:text-left">Brand</h1>
                     </div>
-                    <div>
+                    <div className="lgg:text-left">
                         <h1 className="text-slate-200 xs:font-bold">Arc</h1>
                         <span className="xs:text-center">Help employer find developers for remote jobs</span>
                     </div>
-                    <div>
+                    <div className="lgg:text-left">
                         <h1 className="text-slate-200 xs:font-bold">Codementor</h1>
                         <span className="">Find a mentor to help you in real time</span>
                     </div>
-                </div>
-                
-                <div className="relative xs:mt-14 xs:mx-8 space-y-12 xxs:space-y-6 xs:pb-12">
-                    <h1 className="uppercase xs:w-full xs:text-center xs:font-bold">Top Developers</h1>
-                    <div className="md:flex md:flex-row md:space-x-12 md:justify-center xs:text-center text-slate-200 xs:space-y-4 xxs:flex xxs:flex-col xxs:space-y-2">
-                        <div className="xs:text-center text-slate-200 xs:space-y-4 xxs:flex xxs:flex-col xxs:space-y-2">
-                            <a href="/" hrefLang="en">Angular Developers</a>
-                            <a href="/" hrefLang="en">Back-End Developers</a>
-                            <a href="/" hrefLang="en">C# Developers</a>
-                            <a href="/" hrefLang="en">DevOps Developers</a>
-                            <a href="/" hrefLang="en">Django Developers</a>
-                            <a href="/" hrefLang="en">Front-End Developers</a>
-                            <a href="/" hrefLang="en">Full-Stack Developers</a>
-                            <a href="/" hrefLang="en">Go (Golang) Developers</a>
-                            <a href="/" hrefLang="en">GraphQL Developers</a>
-                            <a href="/" hrefLang="en">iOS Developers</a>
-                            <a href="/" hrefLang="en">Java Developers</a>
-                            <a href="/" hrefLang="en">JavaScript Developers</a>
-                            <a href="/" hrefLang="en">.NET Developers</a>
-                            <a href="/" hrefLang="en">Node.js Developers</a>
-                        </div>
-                        <div className="xs:text-center text-slate-200 xs:space-y-4 xxs:flex xxs:flex-col xxs:space-y-2">
-                            <a href="/" hrefLang="en">PHP Developers</a>
-                            <a href="/" hrefLang="en">PostgreSQL Developers</a>
-                            <a href="/" hrefLang="en">Python Developers</a>
-                            <a href="/" hrefLang="en">R Developers</a>
-                            <a href="/" hrefLang="en">React Developers</a>
-                            <a href="/" hrefLang="en">Ruby on Rails Developers</a>
-                            <a href="/" hrefLang="en">Shopify Developers</a>
-                            <a href="/" hrefLang="en">SQL Developers</a>
-                            <a href="/" hrefLang="en">Swift Developers</a>
-                            <a href="/" hrefLang="en">Swift Developers</a>
-                            <a href="/" hrefLang="en">Wordpress Developers</a>
-                            <a href="/" hrefLang="en">Web Developers</a>
-                            <a href="/" hrefLang="en">Vue.js Developers</a>
-                        </div>
                     </div>
-                    <div className="">
-                        <h1 className="uppercase xs:text-center xs:font-bold">Links</h1>
-                        <div className="xs:text-center xs:flex xs:flex-col xs:space-y-1">
-                            <a className="text-slate-200" href="" hrefLang="">About Us</a>
-                            <a className="text-slate-200" href="" hrefLang="">Pricing</a>
-                            <a className="text-slate-200" href="" hrefLang="">Arc Career - Hiring Now!</a>
-                            <a className="text-slate-200" href="" hrefLang="">Hire Full-Time Developers</a>
-                            <a className="text-slate-200" href="" hrefLang="">Hire Freelance Developers</a>
-                            <a className="text-slate-200" href="" hrefLang="">Development Services</a>
-                            <a className="text-slate-200" href="" hrefLang="">Employer Blog</a>
-                            <a className="text-slate-200" href="" hrefLang="">Freelance Developer Rates</a>
-                            <a className="text-slate-200" href="" hrefLang="">Remote Team Game</a>
-                            <a className="text-slate-200" href="" hrefLang="">Frequently Asked Question (FAQS)</a>
-                            <a className="text-slate-200" href="" hrefLang="">Arc Newsletter</a>
+                    </div>
+                
+                    <div className="lgg:flex lgg:justify-between lgg:w-6/12 relative xs:mt-14 xs:mx-8 space-y-12 xxs:space-y-6 xs:pb-12">
+                        <div className="relative lgg:justify-between  lgg:w-8/12">
+                            <h1 className="uppercase lgg:text-left xs:w-full xs:text-center xs:font-bold">Top Developers</h1>
+                            <div className="md:flex md:flex-row md:space-x-12 md:justify-center xs:text-center text-slate-200 xs:space-y-4 xxs:flex xxs:flex-col xxs:space-y-2">
+                                <div className="lgg:text-left xs:text-center text-slate-200 xs:space-y-4 xxs:flex xxs:flex-col xxs:space-y-2">
+                                <a href="/" hrefLang="en">Angular Developers</a>
+                                <a href="/" hrefLang="en">Back-End Developers</a>
+                                <a href="/" hrefLang="en">C# Developers</a>
+                                <a href="/" hrefLang="en">DevOps Developers</a>
+                                <a href="/" hrefLang="en">Django Developers</a>
+                                <a href="/" hrefLang="en">Front-End Developers</a>
+                                <a href="/" hrefLang="en">Full-Stack Developers</a>
+                                <a href="/" hrefLang="en">Go (Golang) Developers</a>
+                                <a href="/" hrefLang="en">GraphQL Developers</a>
+                                <a href="/" hrefLang="en">iOS Developers</a>
+                                <a href="/" hrefLang="en">Java Developers</a>
+                                <a href="/" hrefLang="en">JavaScript Developers</a>
+                                <a href="/" hrefLang="en">.NET Developers</a>
+                                <a href="/" hrefLang="en">Node.js Developers</a>
+                                </div>
+                                <div className="lgg:text-left xs:text-center text-slate-200 xs:space-y-4 xxs:flex xxs:flex-col xxs:space-y-2">
+                                <a href="/" hrefLang="en">PHP Developers</a>
+                                <a href="/" hrefLang="en">PostgreSQL Developers</a>
+                                <a href="/" hrefLang="en">Python Developers</a>
+                                <a href="/" hrefLang="en">R Developers</a>
+                                <a href="/" hrefLang="en">React Developers</a>
+                                <a href="/" hrefLang="en">Ruby on Rails Developers</a>
+                                <a href="/" hrefLang="en">Shopify Developers</a>
+                                <a href="/" hrefLang="en">SQL Developers</a>
+                                <a href="/" hrefLang="en">Swift Developers</a>
+                                <a href="/" hrefLang="en">Swift Developers</a>
+                                <a href="/" hrefLang="en">Wordpress Developers</a>
+                                <a href="/" hrefLang="en">Web Developers</a>
+                                <a href="/" hrefLang="en">Vue.js Developers</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lgg:relative lgg:bottom-8">
+                            <h1 className="lgg:text-left uppercase xs:text-center xs:font-bold">Links</h1>
+                            <div className="lgg:text-left xs:text-center xs:flex xs:flex-col xs:space-y-1">
+                                <a className="text-slate-200" href="" hrefLang="">About Us</a>
+                                <a className="text-slate-200" href="" hrefLang="">Pricing</a>
+                                <a className="text-slate-200" href="" hrefLang="">Arc Career - Hiring Now!</a>
+                                <a className="text-slate-200" href="" hrefLang="">Hire Full-Time Developers</a>
+                                <a className="text-slate-200" href="" hrefLang="">Hire Freelance Developers</a>
+                                <a className="text-slate-200" href="" hrefLang="">Development Services</a>
+                                <a className="text-slate-200" href="" hrefLang="">Employer Blog</a>
+                                <a className="text-slate-200" href="" hrefLang="">Freelance Developer Rates</a>
+                                <a className="text-slate-200" href="" hrefLang="">Remote Team Game</a>
+                                <a className="text-slate-200" href="" hrefLang="">Frequently Asked Question (FAQS)</a>
+                                <a className="text-slate-200" href="" hrefLang="">Arc Newsletter</a>
+                            </div>
                         </div>
                     </div>
                 </div>
